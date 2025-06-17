@@ -20,7 +20,8 @@ This is a **basic To-Do List application** built using **HTML, CSS, and JavaScri
 
  📸 Preview
 
-(Add a screenshot here if you have one)
+(https://github.com/user-attachments/assets/77ce608a-1b85-4895-aab9-80b5285c0e20)
+
 
 📂 How to Use
 
