@@ -69,7 +69,7 @@ body {
 }
 
 #progressbar{
-    width: 200px;
+    width: 150px;
     height: 7px;
     background: whitesmoke;
     border-radius: 20px;
@@ -136,7 +136,7 @@ body {
 .todos-container{
    width:100%;
     display: flex;;
-    align-items: centre;
+    align-items: center;
     justify-content: center;
 
 }
@@ -229,26 +229,26 @@ body {
     background: rgb(247, 78, 78);
 } 
 /* media Queries */
-@media (max-width: 600px){
-    .container{
-        margin: 0 20px;
-        padding: 0 10px;
+@media (max-width: 400px) {
+    .input-area {
+        flex-direction: column;
+        gap: 10px;
     }
 
-    .todo-app{
-        padding: 1.5rem;
-        gap: 20px;
+    .input-area input, .input-area button {
+        width: 100%;
     }
 
-    #numbers{
-        width: 60px;
-        height: 60px;
-        font-style: 1rem;
+    .stat-container {
+        flex-direction: column;
+        align-items: flex-start;
     }
-    .input-area input{
-        font-style: 1rem;
+
+    #progressbar {
+        width: 100%;
     }
-    #task-list li{
-        font-style: 1rem;
+
+    #numbers {
+        align-self: center;
     }
 }
